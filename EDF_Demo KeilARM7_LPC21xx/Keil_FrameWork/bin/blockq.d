@@ -1,0 +1,17 @@
+.\bin\blockq.o: ..\OS_src_files\Common\Minimal\BlockQ.c
+.\bin\blockq.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\bin\blockq.o: ..\OS_src_files\include\FreeRTOS.h
+.\bin\blockq.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\bin\blockq.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\bin\blockq.o: .\FreeRTOSConfig.h
+.\bin\blockq.o: C:\Keil_v5\ARM\INC\Philips\lpc21xx.h
+.\bin\blockq.o: ..\MCAL\inc\GPIO.h
+.\bin\blockq.o: ..\OS_src_files\include\projdefs.h
+.\bin\blockq.o: ..\OS_src_files\include\portable.h
+.\bin\blockq.o: ..\OS_src_files\include\deprecated_definitions.h
+.\bin\blockq.o: ..\OS_src_files\ARM7_LPC21xx\portmacro.h
+.\bin\blockq.o: ..\OS_src_files\include\mpu_wrappers.h
+.\bin\blockq.o: ..\OS_src_files\include\task.h
+.\bin\blockq.o: ..\OS_src_files\include\list.h
+.\bin\blockq.o: ..\OS_src_files\include\queue.h
+.\bin\blockq.o: ..\OS_src_files\Common\BlockQ.h

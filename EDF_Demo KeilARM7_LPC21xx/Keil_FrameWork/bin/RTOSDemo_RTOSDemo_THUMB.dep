@@ -1,0 +1,163 @@
+Dependencies for Project 'RTOSDemo', Target 'RTOSDemo_THUMB': (DO NOT MODIFY !)
+CompilerVersion: 5060750::V5.06 update 6 (build 750)::ARMCC
+F (.\Startup.s)(0x61C342C2)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I ..\OS_src_files\ARM7_LPC21xx-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips--pd "__UVISION_VERSION SETA 529"--list .\startup.lst --xref -o .\bin\startup.o --depend .\bin\startup.d)
+F (.\ParTest\ParTest.c)(0x61C342C2)(--thumb -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I . -I ..\APPL\Inc -I ..\lib -I ..\MCAL\inc -I ..\OS_src_files\include -I ..\OS_src_files\ARM7_LPC21xx -I ..\OS_src_files\Common-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529" -DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK-o .\bin\partest.o --omf_browse .\bin\partest.crf --depend .\bin\partest.d)
+I (..\OS_src_files\include\FreeRTOS.h)(0x61C3430A)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B2678)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B2678)
+I (.\FreeRTOSConfig.h)(0x6328E3AE)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559D2F68)
+I (..\MCAL\inc\GPIO.h)(0x5EB07B30)
+I (..\OS_src_files\include\projdefs.h)(0x61C3430A)
+I (..\OS_src_files\include\portable.h)(0x61C3430A)
+I (..\OS_src_files\include\deprecated_definitions.h)(0x632199C5)
+I (..\OS_src_files\ARM7_LPC21xx\portmacro.h)(0x61C3430A)
+I (..\OS_src_files\include\mpu_wrappers.h)(0x61C3430A)
+I (..\OS_src_files\Common\partest.h)(0x61C342C4)
+F (.\serial\serial.c)(0x5EE21219)(--thumb -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I . -I ..\APPL\Inc -I ..\lib -I ..\MCAL\inc -I ..\OS_src_files\include -I ..\OS_src_files\ARM7_LPC21xx -I ..\OS_src_files\Common-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529" -DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK-o .\bin\serial.o --omf_browse .\bin\serial.crf --depend .\bin\serial.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B267A)
+I (..\OS_src_files\include\FreeRTOS.h)(0x61C3430A)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B2678)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B2678)
+I (.\FreeRTOSConfig.h)(0x6328E3AE)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559D2F68)
+I (..\MCAL\inc\GPIO.h)(0x5EB07B30)
+I (..\OS_src_files\include\projdefs.h)(0x61C3430A)
+I (..\OS_src_files\include\portable.h)(0x61C3430A)
+I (..\OS_src_files\include\deprecated_definitions.h)(0x632199C5)
+I (..\OS_src_files\ARM7_LPC21xx\portmacro.h)(0x61C3430A)
+I (..\OS_src_files\include\mpu_wrappers.h)(0x61C3430A)
+I (..\OS_src_files\include\queue.h)(0x61C3430A)
+I (..\OS_src_files\include\task.h)(0x632233F1)
+I (..\OS_src_files\include\list.h)(0x63222156)
+I (..\MCAL\inc\serial.h)(0x5EDA931E)
+F (.\serial\serialISR.s)(0x61C342C2)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I ..\OS_src_files\ARM7_LPC21xx-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips--pd "__UVISION_VERSION SETA 529"--list .\serialisr.lst --xref -o .\bin\serialisr.o --depend .\bin\serialisr.d)
+I (..\OS_src_files\ARM7_LPC21xx\portmacro.inc)(0x61C3430A)
+F (..\APPL\main.c)(0x6328FE02)(--thumb -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I . -I ..\APPL\Inc -I ..\lib -I ..\MCAL\inc -I ..\OS_src_files\include -I ..\OS_src_files\ARM7_LPC21xx -I ..\OS_src_files\Common-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529" -DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK-o .\bin\main.o --omf_browse .\bin\main.crf --depend .\bin\main.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B267A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5D9B267A)
+I (..\OS_src_files\include\FreeRTOS.h)(0x61C3430A)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B2678)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B2678)
+I (.\FreeRTOSConfig.h)(0x6328E3AE)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559D2F68)
+I (..\MCAL\inc\GPIO.h)(0x5EB07B30)
+I (..\OS_src_files\include\projdefs.h)(0x61C3430A)
+I (..\OS_src_files\include\portable.h)(0x61C3430A)
+I (..\OS_src_files\include\deprecated_definitions.h)(0x632199C5)
+I (..\OS_src_files\ARM7_LPC21xx\portmacro.h)(0x61C3430A)
+I (..\OS_src_files\include\mpu_wrappers.h)(0x61C3430A)
+I (..\OS_src_files\include\task.h)(0x632233F1)
+I (..\OS_src_files\include\list.h)(0x63222156)
+I (..\OS_src_files\include\event_groups.h)(0x61C3430A)
+I (..\OS_src_files\include\timers.h)(0x61C3430A)
+I (..\OS_src_files\include\queue.h)(0x61C3430A)
+I (..\MCAL\inc\serial.h)(0x5EDA931E)
+F (..\MCAL\GPIO.c)(0x6321EEDF)(--thumb -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I . -I ..\APPL\Inc -I ..\lib -I ..\MCAL\inc -I ..\OS_src_files\include -I ..\OS_src_files\ARM7_LPC21xx -I ..\OS_src_files\Common-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529" -DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK-o .\bin\gpio.o --omf_browse .\bin\gpio.crf --depend .\bin\gpio.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B2678)
+I (..\lib\bit_math.h)(0x5EB07D86)
+I (..\MCAL\inc\GPIO.h)(0x5EB07B30)
+I (..\MCAL\inc\GPIO_cfg.h)(0x5EB07641)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559D2F68)
+F (..\MCAL\GPIO_cfg.c)(0x6328FE8B)(--thumb -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I . -I ..\APPL\Inc -I ..\lib -I ..\MCAL\inc -I ..\OS_src_files\include -I ..\OS_src_files\ARM7_LPC21xx -I ..\OS_src_files\Common-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529" -DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK-o .\bin\gpio_cfg.o --omf_browse .\bin\gpio_cfg.crf --depend .\bin\gpio_cfg.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B2678)
+I (..\MCAL\inc\GPIO.h)(0x5EB07B30)
+I (..\MCAL\inc\GPIO_cfg.h)(0x5EB07641)
+F (..\OS_src_files\heap_1.c)(0x61C3430A)(--thumb -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I . -I ..\APPL\Inc -I ..\lib -I ..\MCAL\inc -I ..\OS_src_files\include -I ..\OS_src_files\ARM7_LPC21xx -I ..\OS_src_files\Common-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529" -DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK-o .\bin\heap_1.o --omf_browse .\bin\heap_1.crf --depend .\bin\heap_1.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B267A)
+I (..\OS_src_files\include\FreeRTOS.h)(0x61C3430A)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B2678)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B2678)
+I (.\FreeRTOSConfig.h)(0x6328E3AE)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559D2F68)
+I (..\MCAL\inc\GPIO.h)(0x5EB07B30)
+I (..\OS_src_files\include\projdefs.h)(0x61C3430A)
+I (..\OS_src_files\include\portable.h)(0x61C3430A)
+I (..\OS_src_files\include\deprecated_definitions.h)(0x632199C5)
+I (..\OS_src_files\ARM7_LPC21xx\portmacro.h)(0x61C3430A)
+I (..\OS_src_files\include\mpu_wrappers.h)(0x61C3430A)
+I (..\OS_src_files\include\task.h)(0x632233F1)
+I (..\OS_src_files\include\list.h)(0x63222156)
+F (..\OS_src_files\list.c)(0x61C3430A)(--thumb -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I . -I ..\APPL\Inc -I ..\lib -I ..\MCAL\inc -I ..\OS_src_files\include -I ..\OS_src_files\ARM7_LPC21xx -I ..\OS_src_files\Common-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529" -DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK-o .\bin\list.o --omf_browse .\bin\list.crf --depend .\bin\list.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B267A)
+I (..\OS_src_files\include\FreeRTOS.h)(0x61C3430A)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B2678)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B2678)
+I (.\FreeRTOSConfig.h)(0x6328E3AE)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559D2F68)
+I (..\MCAL\inc\GPIO.h)(0x5EB07B30)
+I (..\OS_src_files\include\projdefs.h)(0x61C3430A)
+I (..\OS_src_files\include\portable.h)(0x61C3430A)
+I (..\OS_src_files\include\deprecated_definitions.h)(0x632199C5)
+I (..\OS_src_files\ARM7_LPC21xx\portmacro.h)(0x61C3430A)
+I (..\OS_src_files\include\mpu_wrappers.h)(0x61C3430A)
+I (..\OS_src_files\include\list.h)(0x63222156)
+F (..\OS_src_files\queue.c)(0x61C3430A)(--thumb -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I . -I ..\APPL\Inc -I ..\lib -I ..\MCAL\inc -I ..\OS_src_files\include -I ..\OS_src_files\ARM7_LPC21xx -I ..\OS_src_files\Common-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529" -DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK-o .\bin\queue.o --omf_browse .\bin\queue.crf --depend .\bin\queue.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B267A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9B2678)
+I (..\OS_src_files\include\FreeRTOS.h)(0x61C3430A)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B2678)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B2678)
+I (.\FreeRTOSConfig.h)(0x6328E3AE)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559D2F68)
+I (..\MCAL\inc\GPIO.h)(0x5EB07B30)
+I (..\OS_src_files\include\projdefs.h)(0x61C3430A)
+I (..\OS_src_files\include\portable.h)(0x61C3430A)
+I (..\OS_src_files\include\deprecated_definitions.h)(0x632199C5)
+I (..\OS_src_files\ARM7_LPC21xx\portmacro.h)(0x61C3430A)
+I (..\OS_src_files\include\mpu_wrappers.h)(0x61C3430A)
+I (..\OS_src_files\include\task.h)(0x632233F1)
+I (..\OS_src_files\include\list.h)(0x63222156)
+I (..\OS_src_files\include\queue.h)(0x61C3430A)
+F (..\OS_src_files\tasks.c)(0x6328D8B4)(--thumb -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I . -I ..\APPL\Inc -I ..\lib -I ..\MCAL\inc -I ..\OS_src_files\include -I ..\OS_src_files\ARM7_LPC21xx -I ..\OS_src_files\Common-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529" -DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK-o .\bin\tasks.o --omf_browse .\bin\tasks.crf --depend .\bin\tasks.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B267A)
+I (C:\Keil_v5\ARM\ARMCC\include\string.h)(0x5D9B2678)
+I (..\OS_src_files\include\FreeRTOS.h)(0x61C3430A)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B2678)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B2678)
+I (.\FreeRTOSConfig.h)(0x6328E3AE)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559D2F68)
+I (..\MCAL\inc\GPIO.h)(0x5EB07B30)
+I (..\OS_src_files\include\projdefs.h)(0x61C3430A)
+I (..\OS_src_files\include\portable.h)(0x61C3430A)
+I (..\OS_src_files\include\deprecated_definitions.h)(0x632199C5)
+I (..\OS_src_files\ARM7_LPC21xx\portmacro.h)(0x61C3430A)
+I (..\OS_src_files\include\mpu_wrappers.h)(0x61C3430A)
+I (..\OS_src_files\include\task.h)(0x632233F1)
+I (..\OS_src_files\include\list.h)(0x63222156)
+I (..\OS_src_files\include\timers.h)(0x61C3430A)
+I (..\OS_src_files\include\stack_macros.h)(0x61C3430A)
+F (..\OS_src_files\ARM7_LPC21xx\port.c)(0x61C3430A)(--thumb -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I . -I ..\APPL\Inc -I ..\lib -I ..\MCAL\inc -I ..\OS_src_files\include -I ..\OS_src_files\ARM7_LPC21xx -I ..\OS_src_files\Common-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529" -DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK-o .\bin\port.o --omf_browse .\bin\port.crf --depend .\bin\port.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B267A)
+I (..\OS_src_files\include\FreeRTOS.h)(0x61C3430A)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B2678)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B2678)
+I (.\FreeRTOSConfig.h)(0x6328E3AE)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559D2F68)
+I (..\MCAL\inc\GPIO.h)(0x5EB07B30)
+I (..\OS_src_files\include\projdefs.h)(0x61C3430A)
+I (..\OS_src_files\include\portable.h)(0x61C3430A)
+I (..\OS_src_files\include\deprecated_definitions.h)(0x632199C5)
+I (..\OS_src_files\ARM7_LPC21xx\portmacro.h)(0x61C3430A)
+I (..\OS_src_files\include\mpu_wrappers.h)(0x61C3430A)
+I (..\OS_src_files\include\task.h)(0x632233F1)
+I (..\OS_src_files\include\list.h)(0x63222156)
+F (..\OS_src_files\ARM7_LPC21xx\portASM.s)(0x61C3430A)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I ..\OS_src_files\ARM7_LPC21xx-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips--pd "__UVISION_VERSION SETA 529"--list .\portasm.lst --xref -o .\bin\portasm.o --depend .\bin\portasm.d)
+I (..\OS_src_files\ARM7_LPC21xx\portmacro.inc)(0x61C3430A)
+F (..\OS_src_files\event_groups.c)(0x61C3430A)(--thumb -c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I . -I ..\APPL\Inc -I ..\lib -I ..\MCAL\inc -I ..\OS_src_files\include -I ..\OS_src_files\ARM7_LPC21xx -I ..\OS_src_files\Common-IC:\Keil_v5\ARM\RV31\INC-IC:\Keil_v5\ARM\CMSIS\Include-IC:\Keil_v5\ARM\INC\Philips-D__UVISION_VERSION="529" -DARM7_LPC21xx_KEIL_RVDS -DKEIL_THUMB_INTERWORK-o .\bin\event_groups.o --omf_browse .\bin\event_groups.crf --depend .\bin\event_groups.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x5D9B267A)
+I (..\OS_src_files\include\FreeRTOS.h)(0x61C3430A)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5D9B2678)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5D9B2678)
+I (.\FreeRTOSConfig.h)(0x6328E3AE)
+I (C:\Keil_v5\ARM\INC\Philips\lpc21xx.h)(0x559D2F68)
+I (..\MCAL\inc\GPIO.h)(0x5EB07B30)
+I (..\OS_src_files\include\projdefs.h)(0x61C3430A)
+I (..\OS_src_files\include\portable.h)(0x61C3430A)
+I (..\OS_src_files\include\deprecated_definitions.h)(0x632199C5)
+I (..\OS_src_files\ARM7_LPC21xx\portmacro.h)(0x61C3430A)
+I (..\OS_src_files\include\mpu_wrappers.h)(0x61C3430A)
+I (..\OS_src_files\include\task.h)(0x632233F1)
+I (..\OS_src_files\include\list.h)(0x63222156)
+I (..\OS_src_files\include\timers.h)(0x61C3430A)
+I (..\OS_src_files\include\event_groups.h)(0x61C3430A)

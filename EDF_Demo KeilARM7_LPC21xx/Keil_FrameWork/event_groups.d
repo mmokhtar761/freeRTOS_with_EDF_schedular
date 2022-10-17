@@ -1,0 +1,17 @@
+.\event_groups.o: ..\OS_src_files\event_groups.c
+.\event_groups.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\event_groups.o: ..\OS_src_files\include\FreeRTOS.h
+.\event_groups.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\event_groups.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\event_groups.o: .\FreeRTOSConfig.h
+.\event_groups.o: C:\Keil_v5\ARM\INC\Philips\lpc21xx.h
+.\event_groups.o: ..\MCAL\inc\GPIO.h
+.\event_groups.o: ..\OS_src_files\include\projdefs.h
+.\event_groups.o: ..\OS_src_files\include\portable.h
+.\event_groups.o: ..\OS_src_files\include\deprecated_definitions.h
+.\event_groups.o: ..\OS_src_files\ARM7_LPC21xx\portmacro.h
+.\event_groups.o: ..\OS_src_files\include\mpu_wrappers.h
+.\event_groups.o: ..\OS_src_files\include\task.h
+.\event_groups.o: ..\OS_src_files\include\list.h
+.\event_groups.o: ..\OS_src_files\include\timers.h
+.\event_groups.o: ..\OS_src_files\include\event_groups.h

@@ -1,0 +1,17 @@
+.\bin\serial.o: serial\serial.c
+.\bin\serial.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\bin\serial.o: ..\OS_src_files\include\FreeRTOS.h
+.\bin\serial.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\bin\serial.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\bin\serial.o: .\FreeRTOSConfig.h
+.\bin\serial.o: C:\Keil_v5\ARM\INC\Philips\lpc21xx.h
+.\bin\serial.o: ..\MCAL\inc\GPIO.h
+.\bin\serial.o: ..\OS_src_files\include\projdefs.h
+.\bin\serial.o: ..\OS_src_files\include\portable.h
+.\bin\serial.o: ..\OS_src_files\include\deprecated_definitions.h
+.\bin\serial.o: ..\OS_src_files\ARM7_LPC21xx\portmacro.h
+.\bin\serial.o: ..\OS_src_files\include\mpu_wrappers.h
+.\bin\serial.o: ..\OS_src_files\include\queue.h
+.\bin\serial.o: ..\OS_src_files\include\task.h
+.\bin\serial.o: ..\OS_src_files\include\list.h
+.\bin\serial.o: ..\MCAL\inc\serial.h

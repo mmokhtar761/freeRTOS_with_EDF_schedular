@@ -1,0 +1,13 @@
+.\partest.o: ParTest\ParTest.c
+.\partest.o: ..\OS_src_files\include\FreeRTOS.h
+.\partest.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\partest.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\partest.o: .\FreeRTOSConfig.h
+.\partest.o: C:\Keil_v5\ARM\INC\Philips\lpc21xx.h
+.\partest.o: ..\MCAL\inc\GPIO.h
+.\partest.o: ..\OS_src_files\include\projdefs.h
+.\partest.o: ..\OS_src_files\include\portable.h
+.\partest.o: ..\OS_src_files\include\deprecated_definitions.h
+.\partest.o: ..\OS_src_files\ARM7_LPC21xx\portmacro.h
+.\partest.o: ..\OS_src_files\include\mpu_wrappers.h
+.\partest.o: ..\OS_src_files\Common\partest.h

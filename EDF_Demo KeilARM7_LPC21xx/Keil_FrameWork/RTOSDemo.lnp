@@ -1,0 +1,19 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\partest.o"
+".\serial.o"
+".\serialisr.o"
+".\main.o"
+".\gpio.o"
+".\gpio_cfg.o"
+".\event_groups.o"
+".\heap_1.o"
+".\list.o"
+".\queue.o"
+".\tasks.o"
+".\port.o"
+".\portasm.o"
+--strict --scatter ".\RTOSDemo.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\RTOSDemo.map" -o .\RTOSDemo.axf

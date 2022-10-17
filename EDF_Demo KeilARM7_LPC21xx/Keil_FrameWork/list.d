@@ -1,0 +1,14 @@
+.\list.o: ..\OS_src_files\list.c
+.\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\list.o: ..\OS_src_files\include\FreeRTOS.h
+.\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stddef.h
+.\list.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\list.o: .\FreeRTOSConfig.h
+.\list.o: C:\Keil_v5\ARM\INC\Philips\lpc21xx.h
+.\list.o: ..\MCAL\inc\GPIO.h
+.\list.o: ..\OS_src_files\include\projdefs.h
+.\list.o: ..\OS_src_files\include\portable.h
+.\list.o: ..\OS_src_files\include\deprecated_definitions.h
+.\list.o: ..\OS_src_files\ARM7_LPC21xx\portmacro.h
+.\list.o: ..\OS_src_files\include\mpu_wrappers.h
+.\list.o: ..\OS_src_files\include\list.h
