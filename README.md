@@ -7,15 +7,12 @@ This project involves the implementation of an Earliest Deadline First (EDF) sch
 - Thesis Reference: "Implementation and Test of EDF and LLREF Schedulers in FreeRTOS" by Enrico Carraro.
 - Hardware:
   * ST STM32F429 Discovery Board
-  * ARM Cortex M4 (180 MHz)
-  * 2 MB Flash, 256 KB RAM
-  * 2.4” QVGA TFT LCD
+  * ARM Cortex M4
 - Software:
   * FreeRTOS v8.2.2
   * GCC Compiler
   * Keil Simulator
   * Simso Offline Simulator
-  * CooCox CoIDE
 
 ## Implementation Details
 The EDF scheduler was implemented by modifying the FreeRTOS kernel, particularly the `tasks.c` file. Key changes include:
@@ -32,8 +29,6 @@ The EDF scheduler was implemented by modifying the FreeRTOS kernel, particularly
 4. **Context Switching:**  
    The `vTaskSwitchContext` function was updated to always select the task with the nearest deadline for execution.
 
-5. **Trace Macros:**  
-   Custom trace macros were added to log task switches and delays during runtime.
 
 ## Tasks Description
 Six tasks were implemented to verify the EDF scheduler:
@@ -96,18 +91,11 @@ The system implementation was verified using three methods:
 The results confirmed that the implemented EDF scheduler works as intended, ensuring timely task execution and system schedulability.
 
 ## How to Run the Project
-1. **Setup the Development Environment:**  
-   - Install GCC compiler and CooCox CoIDE.  
-   - Connect the STM32F429 Discovery board.
 
-2. **Build and Flash:**  
-   - Open the project in CooCox CoIDE.  
-   - Compile the code and flash it onto the board.
-
-3. **Simulate in Keil:**  
+1. **Simulate in Keil:**  
    - Load the project in Keil simulator.  
    - Run the simulation and observe the task execution using trace macros and the logic analyzer.
 
-4. **Simulate in Simso:**  
+2. **Simulate in Simso:**  
    - Define the tasks in Simso.  
    - Run the simulation and verify the task scheduling.
